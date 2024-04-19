@@ -7,3 +7,7 @@ CREATE TABLE user (
     mobile_no VARCHAR(15) NOT NULL,
     address VARCHAR(255) NOT NULL
 );
+
+
+
+SELECT user, host FROM mysql.user;
