@@ -16,3 +16,13 @@ SELECT user, host FROM mysql.user;
 
 
 GRANT ALL PRIVILEGES ON your_database.* TO 'new_username'@'localhost';
+
+
+USE your_database;
+
+CREATE TABLE your_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    column1 VARCHAR(255),
+    column2 INT,
+    column3 TEXT
+);
