@@ -11,3 +11,8 @@ CREATE TABLE user (
 
 
 SELECT user, host FROM mysql.user;
+
+
+
+
+GRANT ALL PRIVILEGES ON your_database.* TO 'new_username'@'localhost';
